@@ -1,0 +1,24 @@
+html {
+    background-image: url("../images/diamond_upholstery_@2X.png");
+}
+
+#header {
+    height: 75px;
+    width: 300px;
+    background-color: coral;
+    margin: 25px;
+    text-align: center;
+    padding: 10px 10px ;
+    color: white;
+
+}
+
+#instructions   {
+    height: 375px;
+    width: 450px;
+    background-color: pink;
+    margin: 25px;
+    color: rgb(23, 172, 23);
+    padding: 5px;
+
+}
