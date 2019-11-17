@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
 </head>
 <body>
@@ -24,13 +25,19 @@
         <h4>Each time when the game starts, the game will change the values of each crystal.</h4>
     
     </div>
-    <div id="goalnum"></div>
-    <div id="winslosses"></div>
-    <div id="crystal1"></div>
-    <div id="crystal2"></div>
-    <div id="crystal3"></div>
-    <div id="crystal4"></div>
-    <div id="scoreheader">Your total score is:</div>
+    
+    <div id="main">
+        <div id="goalnum"></div>
+        <div id="winloss">Wins: <h3 id="wins"></h3>Losses: <h3 id="loss"></h3></div>
+    </div>
+
+    <div id="crystalbox">
+        <div id="crystal1"><img src="assets/images/crys1.jpg" width=100px alt="crystal1"></div>
+        <div id="crystal2"><img src="assets/images/crys2.jpg" width=100px alt="crystal2"></div>
+        <div id="crystal3"><img src="assets/images/crys3.jpg" width=100px alt="crystal3"></div>
+        <div id="crystal4"><img src="assets/images/crys4.jpg" width=100px alt="crystal4"></div>
+    </div>
+    <div id="scoreheader">Your score is:</div>
     <div id="scorebox"></div>
 </body>
 </html>
